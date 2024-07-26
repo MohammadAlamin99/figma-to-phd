@@ -38,6 +38,7 @@ ol {
     width: 105px;
     height: 35px;
     margin-top: 26px;
+    margin-left: 12px;
 }
 .HeaderButton button{
     font-family: "Inter", sans-serif;
@@ -59,9 +60,116 @@ ol {
     font-weight: 500;
     font-size: 14px;
     color: #3C2C40;
-    justify-items: end;
-    justify-content: end;
 }
 .nav-item{
     margin-left: 30px;
+}
+
+.nav-item a{
+    transition: all linear .3s;
+    position: relative;
+}
+.nav-item a:hover{
+    color: #1980FA;
+
+}
+.nav-item span{
+    font-size: 4px;
+    position: absolute;
+    left: 45%;
+    top: 80%;
+    color: #1980FA;
+    display: none;
+}
+
+.nav-item a:hover span{
+    display: block;
+}
+
+/* header css end */
+
+/* banner css start */
+
+.MainBanner{
+  background-image: url('../images/Rectangle\ 4326.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width:100%;
+  padding: 205px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.bannerText h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #112200;
+    text-align: center;
+    line-height: 70px;
+}
+.bannerText span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    background: #1980FA;
+    padding: 0 5px;
+}
+.bannerText p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #112200;
+    text-align: center;
+    line-height: 30.4px;
+    padding-top: 30px;
+}
+.bannerText h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1980FA;
+    text-align: center;
+    padding-top: 18px;
+    letter-spacing: 3px;
+}
+.bannerText h4 a{
+    color: #112200;
+    margin: 0 11px;
+}
+.bannerEffect{
+    position: relative;
+}
+.bannerText img{
+    position: absolute;
+    left: 50%;
+    top: -27%;
+    width: 537px;
+    height: 573px;
+    z-index: 999;  
+}
+.effect{
+    position: relative;
+}
+.bannerText .effect img{
+    position: absolute;
+    left: 49px;
+    width: 85px;
+    height: 87px;
+    z-index: 999;  
+}
+.illustrationImg{
+    position: relative;
+}
+.illustrationImg img{
+    width: 784px;
+    height: 487px;
+    position: absolute;
+    left: 5%;
+    top: 95px;
 }
