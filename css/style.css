@@ -52,7 +52,7 @@ ol {
     margin-left: 15px;
 }
 .mainNavbar{
-    margin-top: 8px;
+ padding-top: 10px;
 }
 
 .nav-item a{
@@ -86,7 +86,78 @@ ol {
     display: block;
 }
 
-
-
-
 /* header css end */
+
+
+
+
+/* Banner part start css */
+
+#mainBanner{
+    padding-top: 7.5rem;
+}
+    .bannerText h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 50px;
+        color: #112200; 
+        text-align: center;
+        margin-bottom: 2px;
+    }
+    .bannerText h2{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 50px;
+        color: #112200; 
+        text-align: center;
+    }
+    .bannerText p{
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16;
+        color: #112200; 
+        text-align: center;
+        padding-top: 30px;
+        line-height: 30px;
+    }
+    .bannerText h3{
+        text-align: center;
+        padding-top: 19px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        color: #1980FA;
+        letter-spacing: 3px;
+    }
+    .bannerText h3 i{
+        cursor: pointer;
+        font-size: 15px;
+        color: #112200; 
+        margin-left: 8px;
+    }
+    .bannerBack{
+       background: url(images/Rectangle\ 4326.png);
+       
+    }
+    .bannerText{
+        position: relative;
+    }
+    .leftSide img{
+        width: 80px;
+        height: 85px;
+        position: absolute;
+        left: 157px;
+        top: -7px;
+      }
+
+/* Banner part end css */
+
+
+/* Ilustration css part start */
+.mainIllustration img{
+    margin-left: 9rem;
+    width: 784px;
+    height: auto;
+}
+/* Ilustration css part end */
+
